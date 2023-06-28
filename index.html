@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,15 +9,28 @@
 </head>
 <body>
     <script>
-        let number = Math.round(Math.random() * 10)
-        console.log(number)
-        let chance = 0
-        let ask;
-        do {ask =+ prompt("Guess the number")
-        }while(ask != number)
-        console.log(ask)
-        
-
+        <!-- Question no 3 -->
+       class car {
+        constructor(name){
+          this.brand = name
+        }
+        present (){
+          return "i hope" + this.brand
+        }
+       }
+       class model extends car {
+        constructor(name,model1){
+          super(name)
+          this.model = model1
+        }
+        date (){
+          return this.present () + this.model + "they have its"
+        }
+       }
+              let mycar = new model("honda","1999")
+  
+              console.log(mycar.date())
     </script>
+     
+  
 </body>
-</html>
