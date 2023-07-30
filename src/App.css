@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.task-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+li button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
